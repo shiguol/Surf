@@ -9,6 +9,10 @@
 #import <Foundation/Foundation.h>
 #import <resolv.h>
 #include <dns_sd.h>
+@interface DNSPacket:NSObject {
+    
+}
+@end
 @interface SysUtil : NSObject
 + (NSString*)loadSystemDNSServer;
 @end

@@ -23,7 +23,7 @@ import SimpleTunnelServices
         //socket = GCDAsyncUdpSocket.init(delegate: self, delegateQueue: dispatchQueue)
     }
     func addQuery(didReceiveData data:NSData!) {
-        let packet:DNSPacket = DNSPacket.init(packetData: data)
+        let packet:DNSPacket = DNSPacket()//= DNSPacket.init(packetData: data)
         
         queries.append(packet)
         //processQuery()
@@ -31,7 +31,7 @@ import SimpleTunnelServices
     }
    
     func processQuery() {
-        var data = (queries.first?.rawData)! as! NSMutableData
+        var data:NSData = NSData()//(queries.first?.rawData)! as! NSMutableData
         queries.removeFirst()
         if (queryIDCounter == UInt16(UINT16_MAX)) {
             queryIDCounter = 0

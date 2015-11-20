@@ -7,4 +7,3 @@ int local_main();
 int stopSocks();
 #import <CocoaAsyncSocket/AsyncSocket.h>
 #import "CocoaAsyncSocket/GCDAsyncUdpSocket.h"
-#import "DNSPacket.h"

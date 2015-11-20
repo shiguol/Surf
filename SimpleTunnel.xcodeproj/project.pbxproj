@@ -28,7 +28,6 @@
 		6965F1921BCD56720093E2E2 /* table.h in Headers */ = {isa = PBXBuildFile; fileRef = 6965F1911BCD56720093E2E2 /* table.h */; };
 		6965F1941BCD567A0093E2E2 /* encrypt.h in Headers */ = {isa = PBXBuildFile; fileRef = 6965F1931BCD567A0093E2E2 /* encrypt.h */; };
 		69A092A31BFF7259007DB2E2 /* SysUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 69A092A21BFF7259007DB2E2 /* SysUtil.m */; };
-		69A092A61BFF72DD007DB2E2 /* DNSPacket.m in Sources */ = {isa = PBXBuildFile; fileRef = 69A092A51BFF72DD007DB2E2 /* DNSPacket.m */; };
 		69E22DF11BD5D63D006BBD8D /* 2.js in Resources */ = {isa = PBXBuildFile; fileRef = 69E22DF01BD5D63D006BBD8D /* 2.js */; };
 		69E22DF41BD5E23F006BBD8D /* 3.js in Resources */ = {isa = PBXBuildFile; fileRef = 69E22DF31BD5E23F006BBD8D /* 3.js */; };
 		69E22E021BD60169006BBD8D /* ev.c in Sources */ = {isa = PBXBuildFile; fileRef = 69E22E011BD60169006BBD8D /* ev.c */; };
@@ -134,8 +133,6 @@
 		6965F1931BCD567A0093E2E2 /* encrypt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = encrypt.h; sourceTree = "<group>"; };
 		69A092A11BFF7259007DB2E2 /* SysUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SysUtil.h; sourceTree = "<group>"; };
 		69A092A21BFF7259007DB2E2 /* SysUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SysUtil.m; sourceTree = "<group>"; };
-		69A092A41BFF72DD007DB2E2 /* DNSPacket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DNSPacket.h; sourceTree = "<group>"; };
-		69A092A51BFF72DD007DB2E2 /* DNSPacket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DNSPacket.m; sourceTree = "<group>"; };
 		69E22DF01BD5D63D006BBD8D /* 2.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = 2.js; sourceTree = "<group>"; };
 		69E22DF31BD5E23F006BBD8D /* 3.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = 3.js; sourceTree = "<group>"; };
 		69E22E011BD60169006BBD8D /* ev.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = ev.c; path = libev/ev.c; sourceTree = "<group>"; };
@@ -249,8 +246,6 @@
 		69FB75381BD7353E006729F7 /* 3part */ = {
 			isa = PBXGroup;
 			children = (
-				69A092A41BFF72DD007DB2E2 /* DNSPacket.h */,
-				69A092A51BFF72DD007DB2E2 /* DNSPacket.m */,
 				69A092A11BFF7259007DB2E2 /* SysUtil.h */,
 				69A092A21BFF7259007DB2E2 /* SysUtil.m */,
 			);
@@ -582,7 +577,6 @@
 				C4B602061A8E61B300A3C5D4 /* ClientTunnelConnection.swift in Sources */,
 				C49ACF4D1A8AC97B00084324 /* PacketTunnelProvider.swift in Sources */,
 				69A092A31BFF7259007DB2E2 /* SysUtil.m in Sources */,
-				69A092A61BFF72DD007DB2E2 /* DNSPacket.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
